@@ -1,0 +1,18 @@
+{
+
+  "manifest_version": 2,
+  "name": "Schoolbox themer",
+  "version": "1.2",
+
+  "description": "Finally a worthy dark theme!",
+
+  "content_scripts": [
+    {
+      "matches": ["https://my.stpaulsags.vic.edu.au/*"],
+      "css": ["schoolbox.css"],
+      "js": ["schoolbox.js"],
+      "run_at": "document_start"
+    }
+  ]
+
+}

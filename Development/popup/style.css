@@ -1,0 +1,48 @@
+body {
+  background: #202020;
+  color: #fff;
+  font-family: "greycliff-cf", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  max-height: 500px;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-weight: inherit;
+  user-select: none;
+}
+
+.accent {
+  font-weight: 900;
+  color: #21adc0;
+}
+
+.container {
+  padding: 0.5em;
+}
+
+.inline {
+  display: inline-block;
+}
+
+img {
+  width: 2rem;
+  height: 2rem;
+  pointer-events: none;
+  margin-right: 1rem;
+}
+
+a:link, a:visited {
+  color: #21adc0 !important;
+  text-decoration: none;
+}
+
+a:link::before, a:visited::before {
+  height: 0;
+  background-color: #21adc0;
+
+}

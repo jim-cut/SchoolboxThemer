@@ -1,0 +1,645 @@
+:root {
+  --body-background: #141414 !important;
+  --body-foreground-h1: #fff !important;
+  --content-ui-foreground: #901d41 !important;
+  --content-ui-background: #000 !important;
+  --content-ui-selected: #202020 !important;
+  --content-ui-hover: #101010 !important;
+  --navigation-background: #5e122b !important;
+  --off-canvas-background: #09033b !important;
+  --logo-background: #09033b !important;
+  --off-canvas-hover: #00000044 !important;
+  --accent-foreground: #fff !important;
+  --accent-background: var(--off-canvas-background) !important;
+  --navigation-hover: #00000044 !important;
+  --content-ui-submit-background: #5e122b !important;
+  --accounts-menu-background: #09033b !important;
+  --body-foreground: #fff !important;
+  --accounts-menu-hover: #00000044 !important; 
+}
+
+#component-layout {
+  --top-bg-primary: #040411 !important;
+  --left-bg-primary: #040411 !important;
+  --right-bg-primary: #040411 !important;
+  --top-head-font: #fff !important;
+  --left-head-font: #fff !important;
+  --right-head-font: #fff !important;
+  --top-font-primary: #fff !important;
+  --left-font-primary: #fff !important;
+  --right-font-primary: #fff !important;
+}
+
+/*notifications*/
+#msg-content {
+  background-color: #101010 !important;
+  color: #fff !important;
+}
+
+.right-off-canvas-menu .content {
+  color: #fff !important;
+  background: none !important;
+}
+
+.button {
+  background: #000033;
+  color: #fff;
+}
+
+.button:hover {
+  background: #000027
+}
+
+.separator {
+  background: var(--content-ui-selected) !important;
+  color: #fff !important;
+}
+
+.left-off-canvas-menu ul.off-canvas-list li h3 a:hover {
+  color: #fff !important;
+}
+
+#footer, #footer a {
+  color: #fff !important;
+}
+
+.button:hover {
+  color: #a3a3a3 !important;
+}
+
+.editPanel.socialstream-new-post {
+  background: var(--content-ui-selected) !important;
+}
+
+input:not([type]), input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea, .cke_editable_inline {
+  background: #111111 !important;
+  border: none !important;
+  color: #fff !important;
+}
+
+input:hover, textarea:hover, .cke_editable_inline:hover, select:hover {
+  background: var(--content-ui-background) !important;
+  border: none !important;
+}
+
+form ::placeholder {
+  color: #fff !important;
+}
+
+textarea:active {
+  background: var(--content-ui-background) !important;
+}
+
+.button:hover {
+  color: var(--navigation-background) !important
+}
+
+.wrap-down a {
+  color: #fff !important;
+}
+
+.timetable th, .timetable-small th {
+  color: #fff !important;
+}
+
+.island section {
+  background: #040411;
+}
+
+.tabs {
+  background: #000 !important;
+  border-bottom: #000 !important;
+}
+
+.tabs dd.active a, .tabs li.tab-title.active a {
+  color: #ffffff !important;
+  border-color: #fff !important;
+}
+
+article {
+  color: #fff !important;
+}
+
+.fc .fc-cell-shaded {
+  background: var(--logo-background) !important;
+}
+
+.fc-theme-standard th, .fc-theme-standard td, .fc-theme-standard thead, .fc-theme-standard tbody, .fc-theme-standard .fc-divider, .fc-theme-standard .fc-row, .fc-theme-standard .fc-content, .fc-theme-standard .fc-popover, .fc-theme-standard .fc-list-view, .fc-theme-standard .fc-list-heading td, .fc .fc-row .fc-content-skeleton td {
+  border: none !important;
+}
+
+.fc-event, .fc-event:hover {
+  color: #fff !important;
+}
+
+#component-layout table tr th, #component-layout table tr td {
+  color: #fff !important;
+  border-color: #fff !important;
+}
+
+.timetable-subject {
+  box-shadow: inset 0 0 0 99999px rgba(0, 0, 0, 0.474);
+}
+
+.timetable-subject a {
+  color: #510b29;
+  font-weight: bold;
+}
+
+.timetable-subject span {
+  color: #510b29;
+}
+
+.right-off-canvas-menu ul.off-canvas-list label {
+  background: #9b0000;
+}
+
+#msg-mar {
+  background: #054e05 !important;
+}
+
+#msg-mar:hover {
+  color: #0bab18 !important;
+}
+
+.discussion .reply, .discussion .child, .threaded .reply, .threaded .child {
+  border-left-color: var(--content-ui-selected) !important;
+  background: #000 !important;
+  color: #fff !important;
+}
+
+::selection {
+  background: #0051ca !important;
+  color: #fff !important;
+}
+
+.progress-tick.reviewed, .action-list nav a.progress-tick.reviewed, ul.az-list nav a.progress-tick.reviewed, ul.az-error-list nav a.progress-tick.reviewed, .resource-list nav a.progress-tick.reviewed {
+  background: #004509 !important;
+}
+
+.progress-tick.pending, .action-list nav a.progress-tick.pending, ul.az-list nav a.progress-tick.pending, ul.az-error-list nav a.progress-tick.pending, .resource-list nav a.progress-tick.pending {
+  background: #b64c00 !important;
+}
+
+.empty-state, .empty-state-flex-centered {
+  background: var(--right-bg-primary) !important
+}
+
+.empty-state [class^="icon-"], .empty-state-flex-centered [class^="icon-"], .empty-state [class*=" icon-"], .empty-state-flex-centered [class*=" icon-"] {
+  color: #fff !important;
+}
+
+#left-menu *, .breadcrumb, h1, .right-off-canvas-menu ul.off-canvas-list label {
+  user-select: none !important;
+}
+
+.hybrid-bar .top-menu {
+  user-select: none !important;
+  left: 25%;
+}
+
+.breadcrumb li.active span:not([href]) {
+  color: #fff !important;
+}
+
+.global-search input[type="text"]:active {
+  background-color: #040411 !important;
+}
+
+.right-small a[data-unread]:not([data-unread="0"]) {
+  background-color: #9b0000;
+}
+
+[type="submit"]:hover {
+  background-color: #440c1f !important;
+}
+
+.feed, .feed-column {
+  background-color: #040411 !important;
+}
+
+label {
+  color: #fff !important;
+}
+
+.feed > section {
+  border: none !important;
+}
+
+table {
+  background: #040411 !important;
+}
+
+.rb-selected {
+  color: #fff !important;
+}
+
+blockquote {
+  border-color: #09033b !important;
+  background-color: #1b1b1b !important;
+  color: #fff !important;
+}
+
+blockquote::before {
+  color: rgb(255, 255, 255) !important;
+}
+
+table thead tr th, table thead tr td {
+  color: var(--content-ui-foreground) !important;
+}
+
+.flex-grade .grade, .card.compact img {
+  box-shadow: inset 0 0 0 99999px rgba(0, 0, 0, 0.474);
+}
+
+body {
+  color: #fff;
+}
+
+.attachment-browser-container .attachment-browser-filesystems li.active > a {
+  background: #202020 !important;
+  border: none !important;
+}
+
+.timetable td .timetable-subject-active::before, .timetable-small td .timetable-subject-active::before {
+  display: none;
+}
+
+.v-card a {
+  box-shadow: inset 0 0 0 99999px rgba(0, 0, 0, 0.474);
+}
+
+section#menu-toggle:hover {
+  background: #00000044;
+}
+
+.fc-list-day-cushion a {
+  color: #efefef !important;
+}
+
+.actions-small-5 > nav a[class*="icon-"], .actions-small-5 > nav a[class^="icon-"], .island .row.actions-small-5 > nav a[class*="icon-"], .island .row.actions-small-5 > nav a[class^="icon-"], .actions-small-2 > nav a[class*="icon-"], .actions-small-2 > nav a[class^="icon-"], .island .row.actions-small-2 > nav a[class*="icon-"], .island .row.actions-small-2 > nav a[class^="icon-"] {
+  color: #fff;
+}
+
+[type="submit"]:hover, .flex-list.buttons a.submit:hover, .flex-list.buttons button.submit:hover, a.submit:hover, button.submit:hover, [type="submit"]:focus, .flex-list.buttons a.submit:focus, .flex-list.buttons button.submit:focus, a.submit:focus, button.submit:focus {
+  background-color: #440c1f;
+  color: #f5f5f5 !important;
+}
+
+img[title="View Profile"] {
+  user-select: none;
+}
+
+.hybrid-bar .top-menu li a.navthis {
+  background-color: var(--navigation-background);
+}
+
+input[type="radio"]:not(.plain) + label.radio-label::before {
+  background: none;
+}
+
+input[type="radio"]:not(.plain) + label.radio-label::after {
+  background: #202020;
+}
+
+input[type="radio"]:not(.plain) + label.radio-label::after:hover {
+  background: #0d0032;
+}
+
+table hr td, table tr td {
+  color: #000 !important;
+}
+
+.reveal-modal {
+  background: #101010;
+  border-radius: var(--border-radius);
+}
+
+h1, h2, .Schoolbox_Calendar_Component_Dashboard_Controller .fc-widget-header .fc-list-heading-main, h3, label .unit-heading, h4, h5, h6 {
+  color: #fff;
+}
+
+.component-action section {
+  background: #0d0d0d;
+  border: none;
+}
+
+.label.unsubmitted, .unsubmitted.fillgap {
+  background: #000027;
+  color: #fff;
+}
+
+.side-nav .active {
+  border-color: #000033;
+}
+
+ul.tileList {
+  background-color: #01001a;
+}
+
+.VueTables__search, .filters[data-v-2b85c6ea], .VueTables__wrapper, .VueTables__sortable, .VueTables__table-footer {
+  background: #040411 !important;
+}
+
+select {
+  background-color: #000033;
+}
+
+.fc .fc-col-header-cell a {
+  color: #fff;
+}
+
+.fc-direction-ltr .fc-daygrid-event.fc-event-end, .fc-direction-rtl .fc-daygrid-event.fc-event-start {
+  box-shadow: inset 0 0 0 99999px rgba(0, 0, 0, 0.474);
+  color: #fff !important;
+}
+
+.event-container, .fc-event-title {
+  color: #fff !important;
+}
+
+aside#left-menu a.icon-approve {
+  color: #fff !important
+}
+
+ul.flex-list li a {
+  color: #fff;
+}
+
+li h3 a:hover {
+  background: none;
+}
+
+.fc-event, .fc-event:hover {
+  box-shadow: inset 0 0 0 99999px rgba(0, 0, 0, 0.474);
+}
+
+.fc-event, .fc-event:hover {
+  box-shadow: inset 0 0 0 99999px rgba(0, 0, 0, 0.474);
+}
+
+:root {
+  --ck-border-radius: 0px;
+  --ck-color-toolbar-border: #202020;
+  --ck-color-base-border: #202020;
+  --ck-color-button-default-hover-background: var(--form-bg-hover-color);
+  --ck-color-mention-background: var(--accent-background);
+  --ck-color-mention-text: #fff;
+  --ck-input-width: 19rem;
+  --ck-z-modal: 1003;
+  --sb-ck-active: #cae3fa;
+  --sb-ck-active-grey: #e8e8e8;
+  --sb-ck-active-highlight: #daedff;
+  --sb-ck-button-grid-border: #bbb;
+  --sb-ck-disabled: #ddd;
+  --sb-ck-icon-colour: #fff;
+  --ck-color-base-active: var(--sb-ck-active-grey);
+  --ck-color-base-active-focus: var(--sb-ck-active-grey);
+  --ck-color-button-default-hover-background: #000D22;
+  --ck-color-button-default-active-background: #00003C;
+  --ck-color-button-on-background: var(--sb-ck-active);
+  --ck-color-button-on-color: var(--sb-ck-icon-colour);
+  --ck-color-button-on-hover-background: var(--sb-ck-active);
+  --ck-color-input-background: #000;
+  --ck-color-input-disabled-background: var(--sb-ck-disabled);
+  --ck-color-list-button-hover-background: var(--sb-ck-active-grey);
+  --ck-color-list-button-on-background: var(--sb-ck-active-grey);
+  --ck-color-list-button-on-text: var(--sb-ck-icon-colour);
+  --ck-color-list-button-on-background-focus: var(--sb-ck-active-grey);
+  --ck-color-switch-button-on-background: var(--sb-ck-active);
+  --ck-color-switch-button-on-hover-background: var(--sb-ck-active);
+  --ck-color-base-background: #000;
+  --ck-color-toolbar-border: #a0a0a0;
+  --ck-color-base-border: #a0a0a0;
+}
+
+svg.ck.ck-icon.ck-reset_all-excluded.ck-icon_inherit-color.ck-button__icon path, div.ck-dropdown:nth-child(3) > button:nth-child(1) > svg:nth-child(3) path {
+  fill: #fff !important
+}
+
+.socialstream-new-post input[type="url"] {
+  border-radius: 9px 0 0 9px;
+  box-shadow: 0 5px 
+}
+
+img {
+  user-select: none;
+}
+
+article span, article p {
+  color: #fff !important;
+}
+
+#footer > ul:nth-child(1) > li:nth-child(4)::after {
+  content: 'Dark theme by Schoolbox Themer browser extension';
+  margin-left: 1.2rem;
+}
+
+#footer {
+  user-select: none;
+}
+
+div.content span {
+  background: none !important;
+}
+
+div.alert-box {
+  background: #850000
+}
+
+
+.ck svg {
+  fill: #fff !important;
+  color: #fff;
+}
+
+.dzone:hover {
+  background: #00003C
+}
+
+.move-left .right-off-canvas-menu {
+  background: var(--body-background)
+}
+
+#ab-upload .dz-preview, .socialstream-preview {
+  background: #000;
+}
+
+table.rb td p {
+  color: #fff !important;
+}
+
+table.rb th p {
+  color: #861f3c !important;
+}
+
+.global-search .results {
+  background: #202020;
+  color: #fff;
+}
+
+.timetable th, .timetable-small th, table thead {
+  background: none
+}
+
+input[type="checkbox"]:not(.plain) + label.checkbox-label::after, body.login input[type="checkbox"]:not(.plain) + label::after {
+  background-color: #202020;
+  border: none;
+}
+
+.ck {
+  color: #fff !important;
+}
+
+.ck *:active {
+  background: none
+}
+
+:root {
+  --sb-ck-active-grey: #040411;
+  --login-form-background: var(--logo-background);
+}
+
+body.login {
+  backdrop-filter: brightness(75%);
+}
+
+img[alt="portrait photo"] {
+  filter: brightness(50%)
+}
+
+span.rb-value.used {
+  color: var(--content-ui-foreground)
+}
+
+td.fc-list-event-time {
+  color: #fff;
+}
+
+.content article p, .content article span {
+  background-color: transparent !important;
+}
+
+.socialstream-new-post textarea {
+  width: 100%;
+}
+
+.socialstream-new-post textarea::after {
+  position: relative;
+  background: pink;
+  content: '';
+  width: 1rem;
+  height: 1rem;
+  bottom: 0;
+  right: 0;
+}
+
+div.pseudo-video {
+  background: #202020;
+}
+
+button.menu-item {
+  background: none;
+  border: none
+}
+
+.attachzone ul.az-list > li, .dropzone-wrap ul.az-list > li {
+  background: none;
+}
+.fc-event-main {
+  backdrop-filter: brightness(50%);
+}
+
+.fc-timegrid-event-harness-inset .fc-timegrid-event, .fc-timegrid-event.fc-event-mirror, .fc-timegrid-more-link {
+  box-shadow: none
+}
+
+td.fc-list-event-time {
+  color: var(--content-ui-foreground) !important;
+}
+
+
+.checklist input[type="radio"]:not(.plain) + label::after, .checklist input[type="checkbox"]:not(.plain) + label::after, .radiolist input[type="radio"]:not(.plain) + label::after, .radiolist input[type="checkbox"]:not(.plain) + label::after, 
+.checklist input[type="radio"]:not(.plain) + label::before, .checklist input[type="checkbox"]:not(.plain) + label::before, .radiolist input[type="radio"]:not(.plain) + label::before, .radiolist input[type="checkbox"]:not(.plain) + label::before {
+  background: #202020;
+}
+
+h2.subheader.no-margin {
+  background: var(--logo-background);
+  color: #fff;
+  border: none;
+}
+
+.feed-item {
+  border: none
+}
+
+div.selectize-input.items.not-full.has-options.has-items {
+  background: #101010;
+}
+
+div.item {
+  color: #fff
+}
+
+div.selectize-input.items.not-full {
+  background: #101010
+}
+
+input[type="checkbox"]:not(.plain):not(:disabled) + label.checkbox-label:hover::before, body.login input[type="checkbox"]:not(.plain):not(:disabled) + label:hover::before, input[type="checkbox"]:not(.plain):not(:disabled) + label.checkbox-label:hover::after, body.login input[type="checkbox"]:not(.plain):not(:disabled) + label:hover::after {
+  background-color: #303030;
+}
+
+input[type="checkbox"]:not(.plain):not(:disabled) + label.checkbox-label:hover::before, body.login input[type="checkbox"]:not(.plain):not(:disabled) + label:hover::before, input[type="checkbox"]:not(.plain):not(:disabled) + label.checkbox-label:hover::after, body.login input[type="checkbox"]:not(.plain):not(:disabled) + label:hover::after {
+  background-color: #303030;
+}
+
+.filter-dropdown .filter-component {
+  border: none;
+}
+
+.filter-dropdown .filter-component > span::after {
+  border-top-color: #fff
+}
+
+.filter-dropdown .filter-component > span.open, .filter-dropdown .f-dropdown.content, .filter-dropdown .calendar-list li.f-dropdown.row, .calendar-list .filter-dropdown li.f-dropdown.row, .filter-dropdown .calendar-list label.f-dropdown, .calendar-list .filter-dropdown label.f-dropdown, .filter-dropdown .matching-pairs p.f-dropdown, .matching-pairs .filter-dropdown p.f-dropdown, .filter-dropdown .resource-browser .f-dropdown.meta-panel, .resource-browser .filter-dropdown .f-dropdown.meta-panel {
+  background: #202020;
+}
+
+.f-dropdown.content li label::before {
+  border: solid 1px #000;
+}
+
+div.feed-load-more.content {
+  background: #101010
+}
+
+aside#left-menu .logo-wrapper:hover {
+  background: #07022b;
+}
+
+td.full-width.align-middle {
+  color: #fff;
+}
+
+.content td, .content th {
+  border-color: #fff !important;
+}
+
+li::marker {
+  color: #320C81;
+  font-weight: bold;
+}
+
+td {
+  color: #fff !important;
+}
+
+#context-selector-semester, #context-selector-subject {
+  color: #fff;
+  border: none;
+}
+
+:root {
+  --form-bg-hover-color: #101010;
+}

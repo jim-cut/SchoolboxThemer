@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1036.34 1273.1">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f4c000;
+        font-family: AxiaBlack-Regular, Axia;
+        font-size: 1041.97px;
+      }
+
+      .cls-2 {
+        fill: #21adc0;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(119.1 777.38) rotate(27.09)"><tspan x="0" y="0">S</tspan></text>
+  <rect class="cls-2" x="36.34" y="810.37" width="1000" height="274" rx="40.67" ry="40.67"/>
+</svg>
